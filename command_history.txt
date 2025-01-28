@@ -1,0 +1,326 @@
+    1  gcloud compute firewall-rules list --filter="name~ssh"
+    2  ssh -i ~/.ssh/new_key yifan_wang1105@34.89.40.5
+    3  s
+    4  cat ~/.ssh/authorized_keys
+    5  cat ~/.ssh/new_key
+    6  mkdir -p ~/.ssh
+    7  nano ~/.ssh/authorized_keys
+    8  sudo nano /etc/ssh/sshd_config
+    9  sudo passwd your_username
+   10  sudo passwd yifan_wang1105
+   11  sudo apt-get update
+   12  sudo apt-get upgrade -y
+   13  do-release-upgrade
+   14  touch ~/.ssh/config
+   15  chmod 600 ~/.ssh/config
+   16  sudo apt-get update
+   17  sudo nano /etc/ssh/sshd_config
+   18  sudo apt-get update
+   19  wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+   20  ```bash
+   21  wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+   22  bash Anaconda3-2024.10-1-Linux-x86_64.sh
+   23  ```
+   24  bash Anaconda3-2024.10-1-Linux-x86_64.sh
+   25  mkdir -p ~/.ssh
+   26  nano ~/.ssh/authorized_keys
+   27  sudo service docker restart
+   28  docker --version
+   29  apt install docker.io
+   30  sudo apt-get install docker.io
+   31  ```bash
+   32  sudo apt-get install docker.io
+   33  sudo apt-get update
+   34  touch ~/.ssh/config
+   35  chmod 600 ~/.ssh/config
+   36  sudo apt-get update
+   37  sudo apt-get upgrade -y
+   38  wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+   39  bash Anaconda3-2024.10-1-Linux-x86_64.sh
+   40  sudo apt-get install docker.io
+   41  sudo groupadd docker 
+   42  sudo gpasswd -a $USER docker 
+   43  sudo service docker restart # To restart the service 
+   44  ```bash
+   45  sudo groupadd docker 
+   46  sudo gpasswd -a $USER docker 
+   47  sudo service docker restart # To restart the service 
+   48  ```
+   49  ```bash
+   50  sudo groupadd docker 
+   51  sudo gpasswd -a $USER docker 
+   52  sudo service docker restart # To restart the service 
+   53  ```
+   54  sudo apt-get update
+   55  sudo apt-get upgrade -y
+   56  sudo apt-get install docker.io -y
+   57  sudo systemctl start docker
+   58  sudo systemctl enable docker
+   59  docker --version
+   60  sudo docker pull python:3.12.8
+   61  sudo docker run -it --entrypoint bash python:3.12.8
+   62  sudo apt update
+   63  sudo apt install -y docker.io docker-compose
+   64  sudo systemctl start docker
+   65  sudo systemctl enable docker
+   66  mkdir postgres_project && cd postgres_project
+   67  nano docker-compose.yml
+   68  sudo docker-compose up -d
+   69  docker-compose --version
+   70  sudo apt remove docker-compose
+   71  sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   72  sudo chmod +x /usr/local/bin/docker-compose
+   73  sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   74  sudo chmod +x /usr/local/bin/docker-compose
+   75  docker-compose --version
+   76  which docker-compose
+   77  sudo rm /usr/local/bin/docker-compose
+   78  sudo rm /usr/bin/docker-compose
+   79  sudo rm /usr/local/bin/docker-compose
+   80  sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   81  sudo chmod +x /usr/local/bin/docker-compose
+   82  docker-compose --version
+   83  ls -l /usr/local/bin/docker-compose
+   84  sudo chmod +x /usr/local/bin/docker-compose
+   85  sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   86  ls -l /usr/local/bin/docker-compose
+   87  sudo chmod +x /usr/local/bin/docker-compose
+   88  sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+   89  docker-compose --version
+   90  ls
+   91  nano docker-compose.yml 
+   92  sudo docker -compose up -d
+   93  sudo docker-compose up -d
+   94  sudo docker ps
+   95  wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-10.csv.gz
+   96  wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv
+   97  gunzip green_tripdata_2019-10.csv.gz
+   98  sudo apt install postgresql-client
+   99  psql -h localhost -p 5433 -U postgres -d ny_taxi
+  100  wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-10.csv.gz
+  101  wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv
+  102  gunzip green_tripdata_2019-10.csv.gz
+  103  head -n 5 green_tripdata_2019-10.csv
+  104  head -n 5 taxi_zone_lookup.csv
+  105  psql -h localhost -p 5433 postgres -d ny_taxi
+  106  ls -l green_tripdata_2019-10.csv
+  107  head -n 5 green_tripdata_2019-10.csv
+  108  psql -h localhost -p 5433 postgres -d ny_taxi
+  109  wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-10.csv.gz
+  110  gunzip green_tripdata_2019-10.csv.gz
+  111  DELETE FROM green_tripdata
+  112  WHERE lpep_pickup_datetime < '2019-10-01 00:00:00'
+  113  psql -h localhost -p 5433 postgres -d ny_taxi
+  114  sudo apt update
+  115  sudo apt install -y wget unzip
+  116  wget https://releases.hashicorp.com/terraform/1.5.5/terraform_1.5.5_linux_amd64.zip
+  117  unzip terraform_1.5.5_linux_amd64.zip
+  118  sudo mv terraform /usr/local/bin/
+  119  terraform --version
+  120  sudo rm /usr/local/bin/terraform
+  121  wget https://releases.hashicorp.com/terraform/1.10.5/terraform_1.10.5_linux_amd64.zip
+  122  unzip terraform_1.10.5_linux_amd64.zip
+  123  sudo mv terraform /usr/local/bin/
+  124  terraform --version
+  125  git clone https://github.com/harper-w/data-engineering-zoomcamp.git
+  126  cd data-engineering-zoomcamp/01-docker-terraform/1_terraform_gcp/terraform
+  127  terraform init
+  128  cd data-engineering-zoomcamp/01-docker-terraform/1_terraform_gcp/terraform
+  129  cd ..
+  130  cd data-engineering-zoomcamp/01-docker-terraform/1_terraform_gcp/terraform
+  131  cd ..
+  132  cd data-engineering-zoomcamp/01-docker-terraform/1_terraform_gcp/terraform
+  133  ls *.tf
+  134  cd ..
+  135  cd data-engineering-zoomcamp/01-docker-terraform/1_terraform_gcp/terraform
+  136  ls
+  137  cd terraform_basic
+  138  ls
+  139  terraform init
+  140  terraform validate
+  141  terraform plan
+  142  terraform plan -out=plan.out
+  143  terraform apply plan.out
+  144  terraform init
+  145  terraform plan
+  146  nano main.tf
+  147  gcloud config list project
+  148  terraform plan -out=plan.out
+  149  terraform apply plan.out
+  150  nano main.tf
+  151  terraform init
+  152  terraform plan -out=plan.out
+  153  terraform apply plan.out
+  154  terraform show
+  155  mv ~/postgres_project/data-engineering-zoomcamp/01-docker-terraform/1_terraform_gcp/terraform ~/terraform_project
+  156  cd ~/terraform_project
+  157  docker ps
+  158  git init
+  159  git remote add origin https://github.com/harper-w/week1.git
+  160  git remote -v
+  161  git add .
+  162  git commit -m "Initial commit with terraform setup"
+  163  git config --global user.email “yifan.wang1105@gmail.com"
+  164  git config --global user.name "Your Name"
+  165  git config --global user.name "harper-w"
+  166  git config --list
+  167  git push origin main
+  168  git branch
+  169  git branch -M main
+  170  git checkout -b main
+  171  git add .
+  172  git commit -m "Initial commit with terraform setup"
+  173  git push -u origin main
+  174  sudo systemctl status ssh
+  175  docker ps
+  176  docker exec -it eb6d328f7e86  bash
+  177  docker ps
+  178  docker exec -it ecbbf581863e  bash 
+  179  docker exec -it eb6d328f7e86  bash 
+  180  ls
+  181  cd terraform_project/
+  182  ls
+  183  cd ..
+  184  postgres_project/
+  185  cd postgres_project/
+  186  ls
+  187  git config --global user.email yifan.wang1105@gmail.com
+  188  git config --global user.name harper-w
+  189  cd ~/postgres_project  # 进入postgres项目
+  190  git init
+  191  git remote add origin https://github.com/harper-w/week1.git
+  192  git status
+  193  git add .
+  194  git commit -m "Initial commit with project setup"
+  195  git push -u origin main
+  196  git branch
+  197  git branch -M main
+  198  git push -u origin main
+  199  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  200  ssh-keygen -t rsa -b 4096 -C "yifan.wang1105@gmail.com"
+  201  cat ~/.ssh/id_rsa.pub
+  202  car /home/yifan_wang1105/.ssh/id_rsa.pub
+  203  cat /home/yifan_wang1105/.ssh/id_rsa.pub
+  204  ls -a ~/
+  205  cd ~/.ssh
+  206  ls
+  207  cd ..
+  208  ssh-keygen -t rsa -b 4096 -C "yifan.wang1105@gmail.com"
+  209  ls ~/.ssh
+  210  cat ~/.ssh/id_rsa.pub
+  211  ssh -T git@github.com
+  212  git push -u origin main
+  213  ls 
+  214  cd postgres_project/
+  215  git branch
+  216  git branch -M main
+  217  git push -u origin main
+  218  git add .
+  219  git git commit -m "Your commit message"
+  220  git init
+  221  git remote add origin https://github.com/harper-w/week1.git
+  222  git status
+  223  git add .
+  224  git commit -m "Initial commit with project setup"
+  225  git push -u origin main
+  226  git remote -v
+  227  ssh -T git@github.com
+  228  git remote -v
+  229  git remote set-url origin git@github.com:username/repository.git
+  230  eval "$(ssh-agent -s)"
+  231  ssh-add ~/.ssh/id_rsa
+  232  git push origin main
+  233  git remote add origin https://github.com/harper-w/week1.git
+  234  git remote set-url origin https://github.com/harper-w/week1.git
+  235  git push -u origin main
+  236  git remote set-url origin https://github.com/harper-w/week1_homework.git
+  237  git status
+  238  git add .
+  239  git commit -a 
+  240  git push 
+  241  git push --set-upstream origin main
+  242  ls
+  243  sudo apt-get update
+  244  sudo apt-get install git -y
+  245  git init
+  246  git clone https://github.com/harper-w/data-engineering-zoomcamp.git
+  247  ls
+  248  echo $HOME
+  249  ls ~/.ssh/
+  250  readlink -f ~/.ssh/id_rsa
+  251  cd ~/.ssh
+  252  ls
+  253  rm id_rsa id_rsa.pub
+  254  ls
+  255  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  256  ls
+  257  cat id_rsa.pub 
+  258  ls
+  259  rm id_rsa
+  260  re id_rsa.pub 
+  261  rm id_rsa.pub 
+  262  ls
+  263  ssh-keygen -t rsa -b 4096 -C "yifan.wang1105@gmail.com"
+  264  ls
+  265  cat id_rsa.pub 
+  266  ssh -T git@github.com
+  267  git clone git@github.com:harper-w/week2_homework.git
+  268  ls
+  269  rm week2_homework/
+  270  cd ..
+  271  ls 
+  272  git clone git@github.com:harper-w/week2_homework.git
+  273  cd week2_homework/
+  274  add .
+  275  commit -m'test'
+  276  git commit -m "Test push"
+  277  git add 
+  278  git add .
+  279  git commit -m "Test push"
+  280  nano 'test.py'
+  281  ls
+  282  git add .
+  283  git commit -m'test push'
+  284  git push origin main 
+  285  git add .
+  286  git commit -m "Initial commit"
+  287  git branch -M main
+  288  git push -u origin main
+  289  cd ..
+  290  docker run --pull=always --rm -it -p 8080:8080 --user=root \ 
+  291  -v /var/run/docker.sock:/var/run/docker.sock \
+  292  docker --version
+  293  docker run --pull=always --rm -it -p 8080:8080 --user=root \ 
+  294  -v /var/run/docker.sock:/var/run/docker.sock -v /tmp:/tmp kestra/kestra:latest server local
+  295  docker run --pull=always --rm it-p 8080:8080 --user=root \ 
+  296  -v /var/run/docker.sock:/var/run/docker.sock \
+  297  docker run --pull=always --rm -it -p 8080:8080 --user=root -v /var/run/docker.sock:/var/run/docker.sock -v /tmp:/tmp kestra/kestra:latest server local
+  298  ls \
+  299  ls 
+  300  cd week2_homework/
+  301  cd ..
+  302  df -h
+  303  docker image prune -a
+  304  docker container prune
+  305  docker volume prune
+  306  du -sh * | sort -h
+  307  rm -rf Anaconda3-2024.10-1-Linux-x86_64.sh
+  308  rm -rf Anaconda3-2024.10-1-Linux-x86_64.sh2
+  309  du -sh * | sort -h
+  310  rm -rf Anaconda3-2024.10-1-Linux-x86_64.sh.2
+  311  du -sh * | sort -h
+  312  df -h
+  313  docker run --pull=always --rm -it \
+  314  ls 
+  315  cd week2_homework/
+  316  git add .
+  317  git commit -'failed to set up Kestra'
+  318  git commit -m'failed to set up Kestra'
+  319  git push origin main
+  320  git add .
+  321  git commit -m 'failed to Kestraa'
+  322  git push -u origin main
+  323  git status
+  324  cat .gitignore
+  325  history
+  326  history > command_history.txt
